@@ -7,10 +7,13 @@ const jobsData = [
         title: 'One Advanced',
         year: 'Jan 2023 - Present',
         designation: 'Software Engineer',
-        text: <ul>
-        <li>Responsible for developing low/pro code solutions in order to maintain and develop the CRM system and simplify the integration of the CRM software with other Legal products.</li>
-        <li>Implemented the ORM functionality throughout product to eliminate duplicate SQL statements that were scattered across the product. </li>
-        </ul>
+        text:
+        <div className="ExperienceStyle"> 
+            <ul>
+                <li>Responsible for developing low/pro code solutions in order to maintain and develop the CRM system and simplify the integration of the CRM software with other Legal products.</li>
+                <li>Implemented the ORM functionality throughout product to eliminate duplicate SQL statements that were scattered across the product. </li>
+            </ul>
+        </div>
 
     },
     {
